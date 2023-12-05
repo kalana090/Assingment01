@@ -24,3 +24,21 @@ function bold() {
     // Trigger the color picker dialog
      colorPicker.click();
   }
+
+  function Left() {
+    var editor = document.getElementById('editor');
+    editor.style.textAlign = 'left';
+  }
+  function Center() {
+      var editor = document.getElementById('editor');
+      editor.style.textAlign = 'center';
+    }
+    function Right() {
+      var editor = document.getElementById('editor');
+      editor.style.textAlign = 'right';
+    }
+
+    function Justify() {
+      var editor = document.getElementById('editor');
+      editor.style.textAlign = 'justify';
+    }

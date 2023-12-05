@@ -7,3 +7,8 @@ function bold() {
    
     document.execCommand('underline', false, null);
   }  
+
+  function italic() {
+  
+    document.execCommand('italic', false, null);
+  }  
